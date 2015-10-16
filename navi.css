@@ -66,6 +66,8 @@ ul li:last-of-type {
 	text-align: center;
 	top:0;
 	margin: 0 auto;
+	height:155px;
+	overflow: hidden;
 }
 #prev p {
 	margin: 0 30px;
