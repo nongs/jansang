@@ -33,6 +33,11 @@ ul li:last-of-type {
     -webkit-transform: scale(.30,.25); /* Safari */
     transform: scale(.30,.25);
 }
+#releas:active {
+    -ms-transform: scale(.30,.25); /* IE 9 */
+    -webkit-transform: scale(.30,.25); /* Safari */
+    transform: scale(.30,.25);
+}
 #releas1 {
     -ms-transform: scale(.25,.25); /* IE 9 */
     -webkit-transform: scale(.25,.25); /* Safari */
@@ -47,6 +52,11 @@ ul li:last-of-type {
     -webkit-transform: scale(.30,.25); /* Safari */
     transform: scale(.30,.25);
 }
+#releas1:active {
+    -ms-transform: scale(.30,.25); /* IE 9 */
+    -webkit-transform: scale(.30,.25); /* Safari */
+    transform: scale(.30,.25);
+}
 #entered {
     -ms-transform: scale(.35,.35); /* IE 9 */
     -webkit-transform: scale(.35,.35); /* Safari */
@@ -56,6 +66,11 @@ ul li:last-of-type {
     cursor: pointer;
 }
 #entered:hover {
+    -ms-transform: scale(.45,.45); /* IE 9 */
+    -webkit-transform: scale(.45,.45); /* Safari */
+    transform: scale(.45,.45);
+}
+#entered:active {
     -ms-transform: scale(.45,.45); /* IE 9 */
     -webkit-transform: scale(.45,.45); /* Safari */
     transform: scale(.45,.45);
@@ -79,6 +94,9 @@ ul li:last-of-type {
 	cursor: pointer;
 }
 #prev p:hover {
+	box-shadow: 0px 0px 10px white;
+}
+#prev p:active {
 	box-shadow: 0px 0px 10px white;
 }
 footer div{
