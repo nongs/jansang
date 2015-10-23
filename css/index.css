@@ -1,0 +1,25 @@
+header{
+	display:none;
+}
+h1 {
+	color : white;
+	width:1200px;
+	z-index: 1;
+	font-family: "Nanum Myeongjo";
+}
+body {
+	margin : 0 0;
+	background-color: #03112a;
+	color:white;
+	font-family: "Nanum Gothic Coding";
+}
+div {
+	margin: 0 0;
+}
+ul {
+	margin : 0 0;
+}
+footer {
+	margin: 0 0;
+	height: 0;
+}

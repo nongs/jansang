@@ -1,0 +1,63 @@
+#about {
+	position: absolute;
+	margin: 10% 15%;
+	text-align: center;
+	width:1000px;
+	height:500px;
+	background-color: #03112a;
+	border-radius: 5px;
+	display: none;
+	z-index: 10;
+}
+#about h2 {
+	float:left;
+	margin-left:10%;
+	margin-top: 10%;
+	font-size: 48px;
+	margin-right: 10%;
+	font-family: "Nanum Myeongjo";
+}
+#about .close {
+	float:right;
+    -ms-transform: scale(.30,.30); /* IE 9 */
+    -webkit-transform: scale(.30,.30); /* Safari */
+    transform: scale(.30,.30);
+    -webkit-transition: transform .3s;
+    transition: transform .3s;
+    cursor: pointer;
+}
+#about p {
+	float:both;
+	position:relative;
+	color : white;
+	text-align: left;
+	display: block;
+	line-height: 32px;
+	margin:2% auto 0;
+	width:800px;
+}
+#about p:first-of-type {
+	margin-top:90px;
+}
+#about p:first-of-type, #about p:nth-of-type(2) {
+	color:gray;
+}
+#about p:nth-of-type(3) {
+	margin-top:70px;
+}
+#about sub {
+	margin-top:20px;
+	position: relative;
+	left: 30%;
+	color:gray;
+}
+#bgbt {
+	position: absolute;
+	top:0;
+	left: 0;
+	background-color: rgba(50,50,100,.8);
+	display:none;
+	width:100%;
+	height:100%;
+	z-index: 6;
+}

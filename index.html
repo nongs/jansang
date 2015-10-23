@@ -11,28 +11,38 @@
 	<meta name="description" content="Jan Sang project"/>
 	<meta name="keywords" content="comment, Jan Sang, web animation, interative, speed, confused, web portfolio"/>
 
-	<link rel="stylesheet" type="text/css" href="navi.css"/>
-	<link rel="stylesheet" type="text/css" href="index.css"/>
-	<link rel="stylesheet" type="text/css" href="scrollbar.css"/>
-	<link rel="stylesheet" type="text/css" href="font.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font.css"/>
+	<link rel="stylesheet" type="text/css" href="css/navi.css"/>
+	<link rel="stylesheet" type="text/css" href="css/about.css"/>
+	<link rel="stylesheet" type="text/css" href="css/evt.css"/>
+	<link rel="stylesheet" type="text/css" href="css/scrollbar.css"/>
 
-	<script src="modernizr_canvas.js"></script>
-	<script src="jquery-1.11.2.min.js"></script>
-    <script src="canvasApp.js"></script>
+	<script src="js/modernizr_canvas.js"></script>
+	<script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/evt1.js"></script>
+    <script src="js/evt2.js"></script>
+    <script src="js/evt3.js"></script>
 </head>
-<body>
+<body onresize="reSize()">
 <!--intro page-->
 	<header>
 	</header>
+	<div id="about">
+		<h2>잔상</h2>
+		<svg class="close" width="100px" height="100px">
+			<polygon points="0,0 7.25,0 40,35 72.75,0 80,0 80,7.25 45,40 80,72.75 80,80 72.75,80 40,45 7.25,80 0,80 0,72.75 35,40 0,7.25 " style="fill:lightgray;"/>
+		</svg>
+		<p>1. 외부 자극이 사라진 뒤에도 감각 경험이 지속되어 나타나는 상. 촛불을 한참 바라본 뒤에 눈을 감아도 그 촛불의 상이 나타나는 현상 따위.</p>
+		<p>2. 지워지지 아니하는 지난날의 모습.</p>
+		<sub>국립국어원 - 표준국어대사전</sub>
+		<p>현 시대를 살아가면서 인터넷을 빼놓을 수 없는데, 익명성이 보장된 공간에서의 무분별한 속어나 표현을 사용하는 것에 대해 경각심을 느끼고 반성하자는 메세지를 전달하고자 한다.</p>
+		<p>빠르게 움직이는 텍스트로 빠르게 반응하는 인터넷 공간을 표현을 하며, 부정적인 텍스트 내용으로 현 인터넷 문화에 대한 반성을 이끌어 낸다. 그리고 시각적, 인지적으로 잔상을 남겨 경각심을 고취시킨다.</p>
+	</div>
+	<div id="bgbt" class="close"></div>
 <!--animation-->
-    <canvas id="myCanvas" width="600" height="600"></canvas>
-    <!--<script>
-    $(document).ready(function(){
-	    $("canvastext").click(function(){
-	        $(this).hide();
-	    });
-	});
-    </script>-->
+	<!--<article id="acticle">
+	</article>-->
 	<footer>
 <!--navigation-->
 	<nav>
@@ -49,22 +59,7 @@
 				<rect class="path1to3" id="path1" x="24.912" y="36.78" fill="#bbbbbb" width="150.176" height="7.319"/>
 				</svg>
 			</li>
-			<script>
-				$(function() {
-    				$( "#releas" ).click(function(){
-		    			$("nav").animate({bottom: "0"});
-		    			$("#releas").hide();
-		    			$("#releas1").show();
-	    			});
-    			});
-				$(function() {
-    				$( "#releas1" ).click(function(){
-		    			$("nav").animate({bottom: "-200px"});
-		    			$("#releas1").hide();
-		    			$("#releas").show();
-	    			});
-    			});
-			</script>
+			<!--<script src="evt3.js"></script>-->
 			<li>
 				<svg version="1.1" id="entered" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="50px" viewBox="0 0 200 50" enable-background="new 0 0 200 50" xml:space="preserve">
 				<g>
@@ -78,6 +73,12 @@
 			</li>
 		</ul>
 		<div id="prev">
+			<a href="index.html"><p></p></a>
+			<a href="index.html"><p></p></a>
+			<a href="index.html"><p></p></a>
+			<a href="index.html"><p></p></a>
+			<a href="index.html"><p></p></a>
+			<a href="index.html"><p></p></a>
 			<a href="index.html"><p></p></a>
 			<a href="index.html"><p></p></a>
 			<a href="index.html"><p></p></a>
