@@ -1,6 +1,6 @@
 #about {
 	position: absolute;
-	margin: 10% 15%;
+	margin: 10% 10%;
 	text-align: center;
 	width:1000px;
 	height:500px;
@@ -11,7 +11,7 @@
 }
 #about h2 {
 	float:left;
-	margin-left:10%;
+	margin-left: 10%;
 	margin-top: 10%;
 	font-size: 48px;
 	margin-right: 10%;

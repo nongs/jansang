@@ -11,3 +11,6 @@ body::-webkit-scrollbar-thumb {
   background-color: none;
   outline: 1px solid none;
 }
+#prev::-webkit-scrollbar{
+	display:none;
+}

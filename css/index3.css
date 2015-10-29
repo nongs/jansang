@@ -3,14 +3,14 @@ header{
 }
 h1 {
 	text-align: left;
-	color : rgb(3, 17, 42);
+	color : #22262f;
 	width:1600px;
 	z-index: 1;
 	font-family: "Nanum Myeongjo";
 }
 body {
 	margin : 0 0;
-	background-color: #48465c;
+	background-color: #2a436c;
 	color:white;
 	font-family: "Nanum Gothic Coding";
 	text-align: center;
