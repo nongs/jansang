@@ -1,7 +1,7 @@
 nav {
 	position:fixed;
 	bottom:-200px;
-	margin: 0;
+	margin: 0 auto;
 	color:white;
 	background-color: rgba(3, 17, 42, .7);
 	width:100%;
@@ -48,17 +48,18 @@ ul li:last-of-type {
     transition: transform .5s;
     cursor: pointer;
 }
-#prev {
+#slider {
 	display: block;
 	position: relative;
 	text-align: center;
 	top:0;
 	margin: 0 auto;
+	width:90%;
 	height:165px;
-	overflow-x: scroll;
-	overflow-y: hidden;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
-#prev img {
+#slider img {
 	margin: 5px 30px;
 	width:150px;
 	height:150px;

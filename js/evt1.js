@@ -66,6 +66,8 @@ function MovingText() {
     	this.over = false;
     }.bind(this));
 
+   reSize();
+   
    //윈도우 크기 조정
 	function reSize() {
 	    var oW = document.body.offsetWidth;

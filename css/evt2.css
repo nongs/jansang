@@ -25,7 +25,7 @@ h1:hover, h1:active {
     -webkit-transform: scale(.45,.45); /* Safari */
     transform: scale(.45,.45);
 }
-#prev img:hover, #prev img:active {
+#slider img:hover, #slider img:active {
 	box-shadow: 0px 0px 10px white;
 }
 #about .close:hover, #about .close:active {
