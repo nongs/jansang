@@ -2,15 +2,17 @@ header{
 	display:none;
 }
 h1 {
-	text-align: left;
-	color : #22262f;
-	width:1600px;
+	text-align: center;
+	color : #111a21;
+	width:420px;
+	line-height: 130%;
 	z-index: 1;
 	font-family: "Nanum Myeongjo";
 }
 body {
 	margin : 0 0;
 	background-color: #2a436c;
+	background-image: url(img/texture.png) no-repeat top left;
 	color:white;
 	font-family: "Nanum Gothic Coding";
 	text-align: center;

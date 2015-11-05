@@ -59,15 +59,63 @@ ul li:last-of-type {
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
-#slider img {
+#slider div {
+	position: relative;
 	margin: 5px 30px;
+	padding: 0;
 	width:150px;
 	height:150px;
 	border: 1px solid darkgray;
 	display: inline-block;
 	cursor: pointer;
-	overflow: hidden;
+ 	background-size: 150px 150px;
+ 	background-repeat: no-repeat;
 }
-footer div{
+#slider div div {
+	position: absolute;
+	color: white;
+	font-family: "Nanum Gothic Coding";
+	left: -1px;
+	top:100px;
+	text-align: center;
+	margin: 0;
+	padding-top: 15px;
+	width:150px;
+	height:35px;
+	cursor: pointer;
+	display: none;
+ 	background-color: rgba(3, 17, 42, .7);
+}
+#slide1 {
+	background-image: url(img/1.jpg);
+}
+#slide2 {
+	background: url(img/2.jpg);
+}
+#slide3 {
+	background: url(img/3.jpg);
+}
+#slide4 {
+	background: url(img/4.jpg);
+}
+#slide5 {
+	background: url(img/5.jpg);
+}
+#slide6 {
+	background: url(img/6.jpg);
+}
+#slide7 {
+	background: url(img/7.jpg);
+}
+#slide8 {
+	background: url(img/8.jpg);
+}
+#slide9 {
+	background: url(img/9.jpg);
+}
+#slide10 {
+	background: url(img/10.jpg);
+}
+footer div {
 	display: none;
 }

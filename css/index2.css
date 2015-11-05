@@ -11,6 +11,7 @@ h1 {
 body {
 	margin : 0 0;
 	background-color: #bd8e94;
+	background-image: url(img/texture.png) no-repeat top left;
 	color:white;
 	font-family: "Nanum Gothic Coding";
 	text-align: center;

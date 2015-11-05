@@ -53,3 +53,13 @@ $(function() {
 		//$(".close").fadeOut();
 	});
 });
+$(function() {
+	$( "#slider div" ).mouseenter(function(){
+		$(this).find('div').fadeIn();
+	});
+});
+$(function() {
+	$( "#slider div" ).mouseleave(function(){
+		$(this).find('div').fadeOut();
+	});
+});

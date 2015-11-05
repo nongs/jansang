@@ -1,0 +1,30 @@
+header{
+	display:none;
+}
+h1 {
+	text-align: center;
+	color : #7a6f4f;
+	width:360px;
+	line-height: 130%;
+	z-index: 1;
+	font-family: "Nanum Myeongjo";
+}
+body {
+	margin : 0 0;
+	background-color: #ddccb0;
+	background-image: url(img/texture.png) no-repeat top left;
+	color:white;
+	font-family: "Nanum Gothic Coding";
+	text-align: center;
+}
+div {
+	margin: 0 0;
+}
+ul {
+	margin : 0 0;
+}
+footer {
+	margin: 0 0;
+	height: 0;
+	z-index: 5;
+}

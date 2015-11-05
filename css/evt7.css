@@ -1,0 +1,35 @@
+h1:hover, h1:active {
+    -ms-transform: scale(2.5,2.5); /* IE 9 */
+    -webkit-transform: scale(2.5,2.5); /* Safari */
+    transform: scale(2.5,2.5);
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    color : #a22700;
+    -webkit-transition: transform .3s;
+    transition: transform .3s;
+    z-index:4;
+}
+#releas:hover, #releas:active {
+    -ms-transform: scale(.30,.25); /* IE 9 */
+    -webkit-transform: scale(.30,.25); /* Safari */
+    transform: scale(.30,.25);
+}
+#releas1:hover, #releas1:active {
+    -ms-transform: scale(.30,.25); /* IE 9 */
+    -webkit-transform: scale(.30,.25); /* Safari */
+    transform: scale(.30,.25);
+}
+#entered:hover, #entered:active {
+    -ms-transform: scale(.45,.45); /* IE 9 */
+    -webkit-transform: scale(.45,.45); /* Safari */
+    transform: scale(.45,.45);
+}
+#slider div:hover, #slider div:active {
+	box-shadow: 0px 0px 10px white;
+}
+#about .close:hover, #about .close:active {
+    -ms-transform: scale(.35,.35); /* IE 9 */
+    -webkit-transform: scale(.35,.35); /* Safari */
+    transform: scale(.35,.35);
+}

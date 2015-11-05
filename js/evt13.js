@@ -4,7 +4,7 @@ function nextRandomInteger(limit) {
 }
 
 //랜덤한 문자를 리턴하는 함수
-var letters = ["이건뭐 반려견들도 아니고", "수준 떨어진다는 생각은 전혀 못하는 좌빨 또라이", "뭔 아가리질이냐 버러지만도 못한 병신은", "안때려죽인걸 감사나해라 상놈의 새끼야!", "한심한 새끼 쯧", "진짜 역겹다", "지랄들해라아주", "과대망상 정신병자 집단인가", "국민의 탈을쓰고있는 멍청한 노예 호구새끼들이 더 깝깝하다", "너는 벌써 디졌어 상년아", "완전히 미쳐가지고 개꼴깝질이나 쳐하고 자빠진년이"];
+var letters = ["어휴 드러운것들", "똥오줌이나 마셔라", "고추가 너무 작아서 이해력이 딸리나 보네", "존나 혐오스럽다", "이런 날씨뉴스에 왜이런 댓글이?", "자들거리는 소리 존나 크게들린다", "니들 머리 속만큼 가관일까", "제발 꺼져라 병신년들 필요없음", "느그애비도 퇴물인데 고려장해드려야지", "말이 안통하네. 대화는 인간이랑 하는 거라고 할머니가 그러셨지", "한강에뛰어들어라.. 더숨쉬고 피해끼치지말고"];
 function randomLetter() {
     letterIndex = Math.floor(Math.random() * letters.length);
     letterToGuess = letters[letterIndex];
@@ -41,7 +41,7 @@ var canvasHeight = H;
 
 function MovingText() {
     //위치와 속도 생성
-    this.x = nextRandomInteger(canvasWidth) - 100;
+    this.x = nextRandomInteger(canvasWidth) - 300;
     this.y = 0 - canvasHeight + 20;
     this.vx = 0;
     this.vy = randomSpeed(15);
@@ -77,6 +77,11 @@ function MovingText() {
 
 MovingText.prototype.move = function () {
     //범위검사
+    if(this.x < 0) {
+        this.x = nextRandomInteger(canvasWidth);
+    } else if(this.x > W - 400) {
+        this.x = nextRandomInteger(canvasWidth)-400;
+    }
     if (this.y < 0 - canvasHeight) {
         this.vy *= -1;
     } else if (this.y > canvasHeight) {
