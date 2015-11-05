@@ -87,34 +87,34 @@ ul li:last-of-type {
  	background-color: rgba(3, 17, 42, .7);
 }
 #slide1 {
-	background-image: url(img/1.jpg);
+	background-image: url(img/b1.jpg);
 }
 #slide2 {
-	background: url(img/2.jpg);
+	background: url(img/b2.jpg);
 }
 #slide3 {
-	background: url(img/3.jpg);
+	background: url(img/b3.jpg);
 }
 #slide4 {
-	background: url(img/4.jpg);
+	background: url(img/b4.jpg);
 }
 #slide5 {
-	background: url(img/5.jpg);
+	background: url(img/b5.jpg);
 }
 #slide6 {
-	background: url(img/6.jpg);
+	background: url(img/b6.jpg);
 }
 #slide7 {
-	background: url(img/7.jpg);
+	background: url(img/b7.jpg);
 }
 #slide8 {
-	background: url(img/8.jpg);
+	background: url(img/b8.jpg);
 }
 #slide9 {
-	background: url(img/9.jpg);
+	background: url(img/b9.jpg);
 }
 #slide10 {
-	background: url(img/10.jpg);
+	background: url(img/b10.jpg);
 }
 footer div {
 	display: none;
