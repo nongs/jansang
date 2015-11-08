@@ -1,3 +1,22 @@
+/*@-webkit-keyframes flash {
+  0%, 25%, 75%,100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0%, 25%, 75%,100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}*/
 nav {
 	position:fixed;
 	bottom:-200px;
@@ -23,6 +42,13 @@ ul li:last-of-type {
 	position: absolute;
 	right:5%;
 }
+#at {
+	display: inline-block;
+	position: absolute;
+	top:0;
+	margin-left:23%;
+	font-size: 3em;
+}
 #releas {
     -ms-transform: scale(.25,.25); /* IE 9 */
     -webkit-transform: scale(.25,.25); /* Safari */
@@ -47,6 +73,8 @@ ul li:last-of-type {
     -webkit-transition: transform .5s; /* Safari */
     transition: transform .5s;
     cursor: pointer;
+    -webkit-animation: flash 4s infinite;
+    animation: flash 4s infinite;
 }
 #slider {
 	display: block;
@@ -68,6 +96,7 @@ ul li:last-of-type {
 	border: 1px solid darkgray;
 	display: inline-block;
 	cursor: pointer;
+	background-color: rgba(3, 17, 42, .3);
  	background-size: 150px 150px;
  	background-repeat: no-repeat;
 }
